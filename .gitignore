@@ -1,25 +1,24 @@
-# CakePHP 3
+/public/build/fonts/glyphicons-*
+/public/build/images/glyphicons-*
 
-/vendor/*
-/config/app.php
+.php-version
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
 
-/logs/*
-!/logs/empty
-
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
